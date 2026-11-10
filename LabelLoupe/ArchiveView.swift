@@ -34,7 +34,7 @@ struct ArchiveView: View {
                     if !query.isEmpty { Button { query = "" } label: { Image(systemName: "xmark.circle.fill") }.accessibilityLabel("Clear filter") }
                 }.padding(12).background(Ink.white).overlay { Rectangle().strokeBorder(Ink.rule) }
                 if saved.isEmpty {
-                    FieldEmpty(title: query.isEmpty ? "An empty shelf" : "No matches", description: query.isEmpty ? "Save a label from its dossier to keep it here and on your watch." : "Try a different part of the name.")
+                    FieldEmpty(title: query.isEmpty ? "An empty shelf" : "No matches", description: query.isEmpty ? "Save a label from its dossier to keep it in your collection." : "Try a different part of the name.")
                 } else {
                     ForEach(saved) { p in NavigationLink(value: p.id) { ProductLine(product: p, mark: "bookmark.fill") }; Divider() }
                 }

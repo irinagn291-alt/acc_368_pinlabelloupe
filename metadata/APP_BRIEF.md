@@ -1,4 +1,4 @@
-<!-- gf-brief source=dd6f446f8df3507741c6c53dbe2443bc6ff73dbf98482d88e256fa5b68493307 written=2026-11-10T19:27:19+03:00 -->
+<!-- gf-brief source=37bb5d4ac09233f28a85f8351806f1e7ca33fbc6185e6a9b2216c122effaa712 written=2026-11-10T21:21:37+03:00 -->
 # PinlabelLoupe
 
 ## What it is
@@ -65,12 +65,6 @@ In “Collection”, “Filter by name or brand” filters saved products and �
 
 In “Choice history”, “Entries  /  ” is followed by the number of choices. Each entry shows a product and time; tapping it opens the dossier. “Delete choice” opens “Delete this choice from your history?”, where “Delete choice” confirms removal.
 
-### Apple Watch
-
-The companion opens “PinlabelLoupe” with “LABEL BUREAU”, “Collection”, and saved and choice counts. A saved product opens a detail showing its name, brand when available, “PER 100 G”, “Sugars”, “Salt” and “Choices”. “Log a choice” records or queues a choice for the iPhone. A “History” alert reports the outcome, with “Done” to dismiss it.
-
-When the collection is empty, the watch says “Save a label to your collection on iPhone. It will appear here after syncing.” “Refresh from iPhone” requests an update.
-
 ### Widget
 
 The small and medium “PinlabelLoupe archive” widget is described as “Your latest choice and collection size.” It shows “LABELLOUPE”, the latest choice and counts, or “Field archive” and “Log a choice from an open label.” when there is no choice. Tapping it opens the latest dossier or the archive.
@@ -84,7 +78,6 @@ The small and medium “PinlabelLoupe archive” widget is described as “Your 
 - “Compare” two labels and see “B − A”.
 - “Log a choice” and manage “Choice history”.
 - Reopen “recent dossiers”.
-- View saved labels and log choices on Apple Watch.
 - See the latest choice and counts in the “PinlabelLoupe archive” widget.
 
 ## Behaviours that can look like bugs
@@ -93,13 +86,12 @@ The small and medium “PinlabelLoupe archive” widget is described as “Your 
 - “Use this product” is disabled until “Product name” is filled and entered numbers are valid. Energy must be from 0 to 1,000 kcal; the other numeric fields must be from 0 to 100 g. Missing values may be left empty.
 - Before two products are selected, “Compare” shows “Pick a pair” and “Choose two products above, or add one from an open dossier.” Fill both positions to see the table.
 - A product cannot occupy both comparison positions. Choosing the same label shows “This label is already on the comparison table.” Select a different label or remove the existing one. When both positions are full, adding from a dossier asks “Which label should this replace?”
-- An unsaved collection shows “An empty shelf” and “Save a label from its dossier to keep it here and on your watch.” A filter with no results shows “No matches” and “Try a different part of the name.”
+- An unsaved collection shows “An empty shelf” and “Save a label from its dossier to keep it in your collection.” A filter with no results shows “No matches” and “Try a different part of the name.”
 - An unused history shows “Your history is empty” and “Tap Log a choice on a product you pick. Its name and the time will appear here.” Each tap on “Log a choice” adds another entry; entries can be deleted individually.
 - Missing ingredients show “Ingredients are unlisted. Check the package.” Missing allergen information shows “No allergen data” and “Check the ingredient list and allergen warnings on the package.” Missing nutrient values appear as “—”.
 - A search can report “No matches in Open Food Facts.”, “This barcode isn’t in the catalog yet.”, “The catalog is limiting requests. Try again in a minute.”, “Couldn’t load the product data. Try again.” or “Couldn’t reach the catalog. Use a saved product or enter the label by hand.” Try another search, retry later or enter the label manually.
 - Scanner failures can say “On this device, enter the digits printed under the barcode in the search field.”, “Camera access is unavailable. You can type the barcode in the search field.”, “The camera is busy. Try again later or enter the barcode by hand.” or “Enter the digits printed under the barcode in the search field.” Use “Back to search”, type the digits or, when offered, use “Open Settings”.
 - If a change cannot be saved, the “PinlabelLoupe” alert says “This device could not save your changes.” and offers “Close”.
-- The watch may say “Your watch is still connecting. Try again in a moment.”, “Your iPhone could not save this choice. Try again.” or “Choice queued. It will appear in history when your iPhone reconnects.” Reconnect or retry as indicated.
 
 ## Starter content and resume
 
@@ -117,7 +109,7 @@ There is no login or account, in-app purchase, advertising, analytics, account d
 
 ## Data and support
 
-The personal collection, entered products, comparison and history are stored on the device and shared with the paired Apple Watch and widget. Catalog searches and product images use the internet; search terms or barcode digits are sent to Open Food Facts. There is no on-screen Contact or Support control.
+The personal collection, entered products, comparison and history are stored on the device and shared with the widget. Catalog searches and product images use the internet; search terms or barcode digits are sent to Open Food Facts. There is no on-screen Contact or Support control.
 
 ## Scanning and health
 
@@ -127,7 +119,7 @@ The app displays product ingredients, allergens and nutrition per 100 g. It does
 
 ## Platform
 
-The interface is in English, with no region selector or region-specific flow. The app supports iPhone and iPad on iOS 17.0 or later. iPhone supports portrait and both landscape orientations; iPad also supports upside-down portrait. The companion requires watchOS 10.0 or later.
+The interface is in English, with no region selector or region-specific flow. The app supports iPhone and iPad on iOS 17.0 or later. iPhone supports portrait and both landscape orientations; iPad also supports upside-down portrait.
 
 ## Category
 

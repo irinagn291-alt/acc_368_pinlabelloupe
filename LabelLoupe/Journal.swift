@@ -1,6 +1,5 @@
 import Foundation
 import SwiftUI
-import WatchConnectivity
 import WidgetKit
 
 struct Choice: Codable, Identifiable {
@@ -17,7 +16,7 @@ struct Archive: Codable {
     var choices = [Choice]()
 }
 
-final class Journal: NSObject, ObservableObject, WCSessionDelegate {
+final class Journal: NSObject, ObservableObject {
     @Published private(set) var archive: Archive
     @Published var writeError: String?
     private let archiveURL = URL.documentsDirectory.appending(path: "PinlabelLoupe-archive-v1.json")
@@ -35,7 +34,6 @@ final class Journal: NSObject, ObservableObject, WCSessionDelegate {
             archive = stored
         } else { archive = Archive() }
         super.init()
-        if WCSession.isSupported() { WCSession.default.delegate = self; WCSession.default.activate() }
         publishSnapshot()
     }
 
@@ -135,36 +133,5 @@ final class Journal: NSObject, ObservableObject, WCSessionDelegate {
         guard let data = snapshotData() else { return }
         UserDefaults(suiteName: FieldSnapshot.group)?.set(data, forKey: FieldSnapshot.key)
         WidgetCenter.shared.reloadTimelines(ofKind: "LabelLoupeField")
-        guard WCSession.isSupported() else { return }
-        let session = WCSession.default
-        guard session.activationState == .activated else { return }
-        let packet = [FieldSnapshot.key: data]
-        if session.isPaired, session.isWatchAppInstalled {
-            try? session.updateApplicationContext(packet)
-        }
-        if session.isReachable { session.sendMessage(packet, replyHandler: nil, errorHandler: nil) }
-    }
-
-    func session(_ session: WCSession, activationDidCompleteWith activationState: WCSessionActivationState, error: Error?) { DispatchQueue.main.async { self.publishSnapshot() } }
-    func sessionWatchStateDidChange(_ session: WCSession) { DispatchQueue.main.async { self.publishSnapshot() } }
-    func sessionDidBecomeInactive(_ session: WCSession) {}
-    func sessionDidDeactivate(_ session: WCSession) { session.activate() }
-    private func receiveChoice(_ packet: [String: Any]) -> Bool {
-        guard let id = packet["product"] as? String, let event = packet["event"] as? String,
-              let uuid = UUID(uuidString: event), let date = packet["date"] as? Date else { return false }
-        return record(id, event: uuid, date: date)
-    }
-
-    func session(_ session: WCSession, didReceiveUserInfo userInfo: [String: Any]) {
-        DispatchQueue.main.async { _ = self.receiveChoice(userInfo) }
-    }
-
-    func session(_ session: WCSession, didReceiveMessage message: [String: Any], replyHandler: @escaping ([String: Any]) -> Void) {
-        DispatchQueue.main.async {
-            var reply: [String: Any] = [:]
-            if message["event"] != nil { reply["recorded"] = self.receiveChoice(message) }
-            if let data = self.snapshotData() { reply[FieldSnapshot.key] = data }
-            replyHandler(reply)
-        }
     }
 }

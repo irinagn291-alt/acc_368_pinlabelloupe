@@ -2,14 +2,13 @@ name: LabelLoupe
 options:
   deploymentTarget:
     iOS: '17.0'
-    watchOS: '10.0'
   developmentLanguage: en
   createIntermediateGroups: true
 settings:
   base:
     SWIFT_VERSION: '5.0'
     MARKETING_VERSION: '1.0'
-    CURRENT_PROJECT_VERSION: 1
+    CURRENT_PROJECT_VERSION: 2
     CODE_SIGN_STYLE: Automatic
 targets:
   LabelLoupe:
@@ -22,8 +21,6 @@ targets:
     dependencies:
     - target: LabelLoupeWidget
       embed: true
-    - target: LabelLoupeWatch
-      embed: true
     entitlements:
       path: LabelLoupe/App.entitlements
       properties:
@@ -32,6 +29,9 @@ targets:
     info:
       path: LabelLoupe/Info.plist
       properties:
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        ITSAppUsesNonExemptEncryption: false
         CFBundleDisplayName: PinlabelLoupe
         NSCameraUsageDescription: Scan a barcode with the camera to find its label in Open Food Facts.
         CFBundleURLTypes:
@@ -52,25 +52,6 @@ targets:
         PRODUCT_BUNDLE_IDENTIFIER: app.labelloupe.journal
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         TARGETED_DEVICE_FAMILY: 1,2
-  LabelLoupeWatch:
-    type: application
-    platform: watchOS
-    sources:
-    - LabelLoupeWatch
-    - Shared
-    settings:
-      base:
-        PRODUCT_BUNDLE_IDENTIFIER: app.labelloupe.journal.watchkitapp
-        GENERATE_INFOPLIST_FILE: 'YES'
-        INFOPLIST_KEY_CFBundleDisplayName: PinlabelLoupe
-        INFOPLIST_KEY_ITSAppUsesNonExemptEncryption: 'NO'
-        INFOPLIST_KEY_WKCompanionAppBundleIdentifier: app.labelloupe.journal
-        INFOPLIST_KEY_WKApplication: 'YES'
-        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
-        TARGETED_DEVICE_FAMILY: '4'
-        SKIP_INSTALL: 'YES'
-        MARKETING_VERSION: '1.0'
-        CURRENT_PROJECT_VERSION: '1'
   LabelLoupeWidget:
     type: app-extension
     platform: iOS
@@ -85,6 +66,9 @@ targets:
     info:
       path: LabelLoupeWidget/Info.plist
       properties:
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        ITSAppUsesNonExemptEncryption: false
         CFBundleDisplayName: Label archive
         NSExtension:
           NSExtensionPointIdentifier: com.apple.widgetkit-extension
@@ -114,7 +98,3 @@ schemes:
     test:
       targets:
       - LabelLoupeUITests
-  LabelLoupeWatch:
-    build:
-      targets:
-        LabelLoupeWatch: all

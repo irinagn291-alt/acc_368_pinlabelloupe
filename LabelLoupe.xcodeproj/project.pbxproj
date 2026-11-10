@@ -10,25 +10,20 @@
 		0FD5B87D0F0013A10E19B377 /* LabelLoupeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFE55BEF2887ACC3EB21038 /* LabelLoupeApp.swift */; };
 		175746C72D212E65D51B1670 /* Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01ACD2686A7AE0A8DB771C42 /* Design.swift */; };
 		177C6327FC3E12F0C331A7E4 /* FieldWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19A2B09E128C2547257AB70 /* FieldWidget.swift */; };
-		20DB2908CC8BE4548C78D440 /* LabelLoupeWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 187F83B020B26C0F24D67DD6 /* LabelLoupeWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		35F7C6002D88F6B4831A71AE /* LabelLoupeWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 8C310B5893300369F9666CDF /* LabelLoupeWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		361FA6882261CE66616836EA /* Dossier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3087B5E0241333D4359BF61C /* Dossier.swift */; };
 		3DBFC81CD359D03699AB9CF9 /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F8E3C69C31BCEF485A4E82 /* Journal.swift */; };
 		573E4B9B21154B080A7BB266 /* FieldworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CE62EECD60BDA476561459 /* FieldworkTests.swift */; };
 		5CC9B542F97F3FD022DB605C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D7B38ABB281EAE0B6839ECB /* Assets.xcassets */; };
 		6515C5EFFDC5F0A325886A7A /* FieldSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E631F2DD18ED1389D34870 /* FieldSnapshot.swift */; };
-		6C42D2B1492B34AB731731A8 /* LabelLoupeWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB2F4C6E2CEE04C0F3F25EC /* LabelLoupeWatch.swift */; };
 		7074C4F03CA87E309A220102 /* FoodCatalogPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CA87C8C1865A4AC1F063EB /* FoodCatalogPicker.swift */; };
-		809958DC65660DD64035CDE0 /* FieldSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E631F2DD18ED1389D34870 /* FieldSnapshot.swift */; };
 		90BCB7D5065AF607CFB6AC64 /* OfflineProducts.json in Resources */ = {isa = PBXBuildFile; fileRef = FA3DA3DDC2A743C9682D948B /* OfflineProducts.json */; };
 		ACF57904856F7FE9A7449F91 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 85EC25EDD5C65F8A132A1655 /* PrivacyInfo.xcprivacy */; };
 		BBCA476CAECA94B6CB36E9F9 /* FieldSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E631F2DD18ED1389D34870 /* FieldSnapshot.swift */; };
 		BC08FF24CEBF0B50420B0535 /* FoodCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A5DAD6BD44D64996727292 /* FoodCatalog.swift */; };
 		C464406CA6D4C1AE41D4D4C8 /* Comparison.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14EFE5B4FE208E6567F7D27 /* Comparison.swift */; };
 		CB871B246E23E93A479583F4 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 85EC25EDD5C65F8A132A1655 /* PrivacyInfo.xcprivacy */; };
-		CD673ED67DFFDAD1189AB118 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 85EC25EDD5C65F8A132A1655 /* PrivacyInfo.xcprivacy */; };
 		CE073E2AA10CB9968E0A27FE /* ArchiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD97C616B760CA4EA956106 /* ArchiveView.swift */; };
-		D959DD9E10BC68BC6DE329D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ABA71289E18368FA03F219E /* Assets.xcassets */; };
 		FB5049AEB317CA1F37256A44 /* FoodScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19C8760BB30C9AAE049F2A1 /* FoodScanner.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,13 +35,6 @@
 			remoteGlobalIDString = E724F2BC65A8BF3AF399D211;
 			remoteInfo = LabelLoupe;
 		};
-		5A84DAF920FA133C4B938F4B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 21BA695CCF73982E85C81A0F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A38F1809B6EFC9946AFFE834;
-			remoteInfo = LabelLoupeWatch;
-		};
 		C59F67208E7F365A408428DB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 21BA695CCF73982E85C81A0F /* Project object */;
@@ -57,17 +45,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		42A8B0AD3629E9C4823CA975 /* Embed Watch Content */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
-			dstSubfolderSpec = 16;
-			files = (
-				20DB2908CC8BE4548C78D440 /* LabelLoupeWatch.app in Embed Watch Content */,
-			);
-			name = "Embed Watch Content";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9B052C9952D324959633108D /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -83,7 +60,6 @@
 
 /* Begin PBXFileReference section */
 		01ACD2686A7AE0A8DB771C42 /* Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design.swift; sourceTree = "<group>"; };
-		187F83B020B26C0F24D67DD6 /* LabelLoupeWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LabelLoupeWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22474F69D5F893990B6571C3 /* App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = App.entitlements; sourceTree = "<group>"; };
 		2BD97C616B760CA4EA956106 /* ArchiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveView.swift; sourceTree = "<group>"; };
 		3087B5E0241333D4359BF61C /* Dossier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dossier.swift; sourceTree = "<group>"; };
@@ -95,9 +71,7 @@
 		7D7B38ABB281EAE0B6839ECB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DAE62ACD6D9405BF5FBF914 /* Widget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Widget.entitlements; sourceTree = "<group>"; };
 		85EC25EDD5C65F8A132A1655 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		8BB2F4C6E2CEE04C0F3F25EC /* LabelLoupeWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelLoupeWatch.swift; sourceTree = "<group>"; };
 		8C310B5893300369F9666CDF /* LabelLoupeWidget.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = LabelLoupeWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		9ABA71289E18368FA03F219E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A19A2B09E128C2547257AB70 /* FieldWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldWidget.swift; sourceTree = "<group>"; };
 		B14EFE5B4FE208E6567F7D27 /* Comparison.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comparison.swift; sourceTree = "<group>"; };
 		B3CE62EECD60BDA476561459 /* FieldworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldworkTests.swift; sourceTree = "<group>"; };
@@ -110,21 +84,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		150105EFD11CBE1374D2C763 /* LabelLoupeWatch */ = {
-			isa = PBXGroup;
-			children = (
-				9ABA71289E18368FA03F219E /* Assets.xcassets */,
-				8BB2F4C6E2CEE04C0F3F25EC /* LabelLoupeWatch.swift */,
-			);
-			path = LabelLoupeWatch;
-			sourceTree = "<group>";
-		};
 		74ABE152E1B881A87F1F6AA5 = {
 			isa = PBXGroup;
 			children = (
 				E63C879D328906B972C08B1E /* LabelLoupe */,
 				863E9841CA1A9BCC7A8DBF9D /* LabelLoupeUITests */,
-				150105EFD11CBE1374D2C763 /* LabelLoupeWatch */,
 				E8E67CDD7BD7BFD18B1A61E5 /* LabelLoupeWidget */,
 				A033CF07FDCA505C5FBCBCD6 /* Shared */,
 				B671F63955EA7F92213D05FC /* SharedCatalog */,
@@ -165,7 +129,6 @@
 			children = (
 				DDD89079A89FD9AF7B80FCC5 /* LabelLoupe.app */,
 				445C9C8074E4CEC3DE07E75D /* LabelLoupeUITests.xctest */,
-				187F83B020B26C0F24D67DD6 /* LabelLoupeWatch.app */,
 				8C310B5893300369F9666CDF /* LabelLoupeWidget.appex */,
 			);
 			name = Products;
@@ -218,24 +181,6 @@
 			productReference = 445C9C8074E4CEC3DE07E75D /* LabelLoupeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		A38F1809B6EFC9946AFFE834 /* LabelLoupeWatch */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B60F5BAF74B7B4104EEC30D3 /* Build configuration list for PBXNativeTarget "LabelLoupeWatch" */;
-			buildPhases = (
-				F25E4AC6D03527954A39EF76 /* Sources */,
-				51F3C2E3FFED7A21F8B039BD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = LabelLoupeWatch;
-			packageProductDependencies = (
-			);
-			productName = LabelLoupeWatch;
-			productReference = 187F83B020B26C0F24D67DD6 /* LabelLoupeWatch.app */;
-			productType = "com.apple.product-type.application";
-		};
 		E724F2BC65A8BF3AF399D211 /* LabelLoupe */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F56E25461B04EC9E44C11637 /* Build configuration list for PBXNativeTarget "LabelLoupe" */;
@@ -243,13 +188,11 @@
 				CD0F61DD6A1A4711E5D77999 /* Sources */,
 				EE96079B4A362EB9F4A67DB6 /* Resources */,
 				9B052C9952D324959633108D /* Embed Foundation Extensions */,
-				42A8B0AD3629E9C4823CA975 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				F583FE16BC48E8ECED2D8A08 /* PBXTargetDependency */,
-				CEFD4AFE2C7F69C2751350F5 /* PBXTargetDependency */,
 			);
 			name = LabelLoupe;
 			packageProductDependencies = (
@@ -289,9 +232,6 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = E724F2BC65A8BF3AF399D211;
 					};
-					A38F1809B6EFC9946AFFE834 = {
-						ProvisioningStyle = Automatic;
-					};
 					E724F2BC65A8BF3AF399D211 = {
 						ProvisioningStyle = Automatic;
 					};
@@ -315,7 +255,6 @@
 			projectRoot = "";
 			targets = (
 				E724F2BC65A8BF3AF399D211 /* LabelLoupe */,
-				A38F1809B6EFC9946AFFE834 /* LabelLoupeWatch */,
 				F8937DFC78656A36B29A2FF5 /* LabelLoupeWidget */,
 				2AA85FD6DD10C6C81B58EE8A /* LabelLoupeUITests */,
 			);
@@ -323,15 +262,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		51F3C2E3FFED7A21F8B039BD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D959DD9E10BC68BC6DE329D9 /* Assets.xcassets in Resources */,
-				CD673ED67DFFDAD1189AB118 /* PrivacyInfo.xcprivacy in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		91E41626202D0C917169CE6D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -378,15 +308,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F25E4AC6D03527954A39EF76 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				809958DC65660DD64035CDE0 /* FieldSnapshot.swift in Sources */,
-				6C42D2B1492B34AB731731A8 /* LabelLoupeWatch.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		FC9E80C675662DDD413A3FF6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -399,11 +320,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CEFD4AFE2C7F69C2751350F5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A38F1809B6EFC9946AFFE834 /* LabelLoupeWatch */;
-			targetProxy = 5A84DAF920FA133C4B938F4B /* PBXContainerItemProxy */;
-		};
 		D07608EC4F443C3C613FBB45 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E724F2BC65A8BF3AF399D211 /* LabelLoupe */;
@@ -417,24 +333,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2D72431A25CF3AACDCEA0C7E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = PinlabelLoupe;
-				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
-				INFOPLIST_KEY_WKApplication = YES;
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = app.labelloupe.journal;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = app.labelloupe.journal.watchkitapp;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-			};
-			name = Debug;
-		};
 		57715B44B05A257B53BF62E2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -470,7 +368,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -487,28 +385,10 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
-				WATCHOS_DEPLOYMENT_TARGET = 10.0;
-			};
-			name = Release;
-		};
-		6BEDB9B9957249B0C19D09EB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = PinlabelLoupe;
-				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
-				INFOPLIST_KEY_WKApplication = YES;
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = app.labelloupe.journal;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = app.labelloupe.journal.watchkitapp;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
 			};
 			name = Release;
 		};
@@ -599,7 +479,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -623,10 +503,10 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				WATCHOS_DEPLOYMENT_TARGET = 10.0;
 			};
 			name = Debug;
 		};
@@ -699,15 +579,6 @@
 			buildConfigurations = (
 				D49A0B111B694E8B0562BD7F /* Debug */,
 				CEA5A79BB3800DBC637280CD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		B60F5BAF74B7B4104EEC30D3 /* Build configuration list for PBXNativeTarget "LabelLoupeWatch" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2D72431A25CF3AACDCEA0C7E /* Debug */,
-				6BEDB9B9957249B0C19D09EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

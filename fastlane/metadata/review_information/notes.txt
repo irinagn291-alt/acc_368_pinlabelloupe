@@ -4,4 +4,4 @@ To review, open the food catalogue from the Desk and select a product. In its do
 
 Opening the scanner on a supported device requests camera permission. If scanning is unavailable, enter barcode digits in the catalogue search field. Online searches and barcode lookups use Open Food Facts; product images may also load over the network. Catalogue dossiers link to Open Food Facts.
 
-The Home Screen widget displays the latest choice and counts. The watch companion shows a synced collection and can send or queue a choice for the iPhone. Journal data is stored on the device; a summary is shared with the widget and watch. No account, purchase, advertising or analytics flow is implemented.
+The Home Screen widget displays the latest choice and counts. Journal data is stored on the device; a summary is shared with the widget. No account, purchase, advertising or analytics flow is implemented.

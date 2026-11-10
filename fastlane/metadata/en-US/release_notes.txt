@@ -1,1 +1,1 @@
-Initial release of PinlabelLoupe, with Food catalog, barcode lookup, manual label entry, Dossier, Compare, Collection, Choice history, Apple Watch companion, and PinlabelLoupe archive widget.
+Initial release of PinlabelLoupe, with Food catalog, barcode lookup, manual label entry, Dossier, Compare, Collection, Choice history, PinlabelLoupe archive widget.
