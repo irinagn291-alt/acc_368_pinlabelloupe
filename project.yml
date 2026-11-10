@@ -1,0 +1,94 @@
+name: LabelLoupe
+options:
+  deploymentTarget:
+    iOS: "17.0"
+    watchOS: "10.0"
+  developmentLanguage: en
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: 1
+    CODE_SIGN_STYLE: Automatic
+targets:
+  LabelLoupe:
+    type: application
+    platform: iOS
+    sources: [LabelLoupe, Shared, SharedCatalog]
+    dependencies:
+      - target: LabelLoupeWidget
+        embed: true
+      - target: LabelLoupeWatch
+        embed: true
+    entitlements:
+      path: LabelLoupe/App.entitlements
+      properties:
+        com.apple.security.application-groups: [group.app.labelloupe.journal]
+    info:
+      path: LabelLoupe/Info.plist
+      properties:
+        CFBundleDisplayName: PinlabelLoupe
+        NSCameraUsageDescription: Scan a barcode with the camera to find its label in Open Food Facts.
+        CFBundleURLTypes: [{CFBundleURLSchemes: [labelloupe]}]
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait, UIInterfaceOrientationLandscapeLeft, UIInterfaceOrientationLandscapeRight]
+        UISupportedInterfaceOrientations~ipad: [UIInterfaceOrientationPortrait, UIInterfaceOrientationPortraitUpsideDown, UIInterfaceOrientationLandscapeLeft, UIInterfaceOrientationLandscapeRight]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: app.labelloupe.journal
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        TARGETED_DEVICE_FAMILY: "1,2"
+  LabelLoupeWatch:
+    type: application
+    platform: watchOS
+    sources: [LabelLoupeWatch, Shared]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: app.labelloupe.journal.watchkitapp
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: PinlabelLoupe
+        INFOPLIST_KEY_ITSAppUsesNonExemptEncryption: NO
+        INFOPLIST_KEY_WKCompanionAppBundleIdentifier: app.labelloupe.journal
+        INFOPLIST_KEY_WKApplication: YES
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        TARGETED_DEVICE_FAMILY: "4"
+        SKIP_INSTALL: YES
+  LabelLoupeWidget:
+    type: app-extension
+    platform: iOS
+    sources: [LabelLoupeWidget, Shared]
+    entitlements:
+      path: LabelLoupeWidget/Widget.entitlements
+      properties:
+        com.apple.security.application-groups: [group.app.labelloupe.journal]
+    info:
+      path: LabelLoupeWidget/Info.plist
+      properties:
+        CFBundleDisplayName: Label archive
+        NSExtension: {NSExtensionPointIdentifier: com.apple.widgetkit-extension}
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: app.labelloupe.journal.widget
+        TARGETED_DEVICE_FAMILY: "1,2"
+        SKIP_INSTALL: YES
+        APPLICATION_EXTENSION_API_ONLY: YES
+  LabelLoupeUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources: [LabelLoupeUITests]
+    dependencies: [{target: LabelLoupe}]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: app.labelloupe.journal.uitests
+        GENERATE_INFOPLIST_FILE: YES
+        TEST_TARGET_NAME: LabelLoupe
+schemes:
+  LabelLoupe:
+    build:
+      targets: {LabelLoupe: all}
+    test:
+      targets: [LabelLoupeUITests]
+  LabelLoupeWatch:
+    build:
+      targets: {LabelLoupeWatch: all}

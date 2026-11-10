@@ -1,0 +1,326 @@
+{
+  "source": "Open Food Facts",
+  "databaseLicense": "ODbL 1.0",
+  "products": [
+    {
+      "code": "3168930003632",
+      "brands": "Quaker",
+      "allergens_tags": [
+        "en:gluten"
+      ],
+      "image_front_small_url": "https://images.openfoodfacts.org/images/products/316/893/000/3632/front_en.104.200.jpg",
+      "product_name_en": "Quaker Oats",
+      "ingredients_text_en": "100% oatmeal",
+      "nutriments": {
+        "energy-kcal_100g": 375,
+        "energy-kj_100g": 1570,
+        "energy_100g": 1570,
+        "proteins_100g": 11,
+        "carbohydrates_100g": 60,
+        "fat_100g": 8,
+        "fiber_100g": 9,
+        "sugars_100g": 1.1,
+        "salt_100g": 0.01
+      }
+    },
+    {
+      "code": "3017620422003",
+      "brands": "Nutella, Ferrero",
+      "allergens_tags": [
+        "en:milk",
+        "en:nuts",
+        "en:soybeans"
+      ],
+      "image_front_small_url": "https://images.openfoodfacts.org/images/products/301/762/042/2003/front_en.879.200.jpg",
+      "product_name_en": "Nutella",
+      "ingredients_text_en": "sugar, palm oil",
+      "nutriments": {
+        "energy-kcal_100g": 539,
+        "energy-kj_100g": 2252,
+        "energy_100g": 2252,
+        "proteins_100g": 6.3,
+        "carbohydrates_100g": 57.5,
+        "fat_100g": 30.9,
+        "fiber_100g": 0,
+        "sugars_100g": 56.3,
+        "salt_100g": 0.107
+      }
+    },
+    {
+      "code": "8410076801197",
+      "brands": "Nature Valley, GENERAL MILLS IBERICA S.A.U.",
+      "allergens_tags": [
+        "en:soybeans"
+      ],
+      "image_front_small_url": "https://images.openfoodfacts.org/images/products/841/007/680/1197/front_en.89.200.jpg",
+      "product_name_en": "Crunchy Oats & Dark Chocolate",
+      "ingredients_text_en": "whole grain oat flakes (56%), sugar, refined sunflower oil, chocolate chips (7%) (cocoa paste, sugar, emulsifier (soy lecithin), natural vanilla aroma), fat reduced cocoa powder, honey, salt, cane molasses, emulsifier (sunflower lecithin), raising agent (sodium acid carbonate), natural aroma",
+      "nutriments": {
+        "energy-kcal_100g": 473,
+        "energy-kj_100g": 1981,
+        "energy_100g": 1981,
+        "proteins_100g": 8.7,
+        "carbohydrates_100g": 61.5,
+        "fat_100g": 19.8,
+        "fiber_100g": 7,
+        "sugars_100g": 26.8,
+        "salt_100g": 0.65
+      }
+    },
+    {
+      "code": "8595229900504",
+      "brands": "Emco",
+      "allergens_tags": [
+        "en:gluten"
+      ],
+      "image_front_small_url": "https://images.openfoodfacts.org/images/products/859/522/990/0504/front_en.14.200.jpg",
+      "product_name_en": "Müsli oat biscuits",
+      "ingredients_text_en": "Oat flakes 40%, wheat flour, sugar, rapeseed oil, dark chocolate 5,1 % (sugar, cocoa butter, cocoa mass, it cocoa powder, emulsifier: sunflower lecithin, vanilla extract), grated coconut, glucose syrup, cocoa powder, chocolate powder 2,2% (sugar, cocoa mass, low fat cocoa DO), antioxidants (ascorbyl palmitate, natural extract with high content of tocopherols), raising agents (sodium bicarbonate, ammonium bicarbonate), natural flaming. The product may contain: peanuts, soya, milk and nuts.",
+      "nutriments": {
+        "energy-kcal_100g": 466.666666666667,
+        "energy-kj_100g": 1926.66666666667,
+        "energy_100g": 1926.66666666667,
+        "proteins_100g": 10,
+        "carbohydrates_100g": 56.6666666666667,
+        "fat_100g": 20,
+        "fiber_100g": 6.66666666666667,
+        "sugars_100g": 20,
+        "salt_100g": 0.166666666666667
+      }
+    },
+    {
+      "code": "8410076600837",
+      "brands": "Nature Valley",
+      "allergens_tags": [
+        "en:gluten"
+      ],
+      "image_front_small_url": "https://images.openfoodfacts.org/images/products/841/007/660/0837/front_en.36.200.jpg",
+      "product_name_en": "Crunchy Oats & Honey",
+      "ingredients_text_en": "whole grain rolled oats (60%), sugar, sunflower oil, honey (3%), salt, molasses, emulsifier: sunflower lecithin, raising agent: sodium bicarbonate, may contain  soy wheat peanuts tree nuts",
+      "nutriments": {
+        "energy-kcal_100g": 466.6666666667,
+        "energy-kj_100g": 1961.9,
+        "energy_100g": 1961.9,
+        "proteins_100g": 8.7,
+        "carbohydrates_100g": 64.3,
+        "fat_100g": 18.1,
+        "fiber_100g": 6.4,
+        "sugars_100g": 26.8,
+        "salt_100g": 0.85
+      }
+    },
+    {
+      "code": "8076800105735",
+      "brands": "Barilla",
+      "allergens_tags": [
+        "en:gluten"
+      ],
+      "image_front_small_url": "https://images.openfoodfacts.org/images/products/807/680/010/5735/front_en.156.200.jpg",
+      "product_name_en": "Penne Rigate N°73",
+      "ingredients_text_en": "durum wheat semolina, water",
+      "nutriments": {
+        "energy-kcal_100g": 359,
+        "energy-kj_100g": 1521,
+        "energy_100g": 1521,
+        "proteins_100g": 13,
+        "carbohydrates_100g": 71,
+        "fat_100g": 2,
+        "fiber_100g": 3,
+        "sugars_100g": 3.5,
+        "salt_100g": 0.01
+      }
+    },
+    {
+      "code": "8008343200660",
+      "brands": "Rummo",
+      "allergens_tags": [
+        "en:gluten"
+      ],
+      "image_front_small_url": "https://images.openfoodfacts.org/images/products/800/834/320/0660/front_en.129.200.jpg",
+      "product_name_en": "Penne Rigate No 66",
+      "ingredients_text_en": "Durum wheat semolina.\r\nMay contain traces of soy.",
+      "nutriments": {
+        "energy-kcal_100g": 356,
+        "energy-kj_100g": 1510.4,
+        "energy_100g": 1510.4,
+        "proteins_100g": 14.5,
+        "carbohydrates_100g": 69.5,
+        "fat_100g": 1.6,
+        "fiber_100g": 2.9,
+        "sugars_100g": 3.1,
+        "salt_100g": 0.01
+      }
+    },
+    {
+      "code": "3327272107259",
+      "brands": "Menguy's",
+      "allergens_tags": [
+        "en:milk",
+        "en:peanuts"
+      ],
+      "image_front_small_url": "https://images.openfoodfacts.org/images/products/332/727/210/7259/front_en.49.200.jpg",
+      "product_name_en": "Peanut Butter Creamy",
+      "ingredients_text_en": "roasted peanuts of the americas 86%, vegetable butter (salt, cocoa), sugar, salt,",
+      "nutriments": {
+        "energy-kcal_100g": 629,
+        "energy-kj_100g": 2607,
+        "energy_100g": 2607,
+        "proteins_100g": 25,
+        "carbohydrates_100g": 12,
+        "fat_100g": 52,
+        "fiber_100g": 6.7,
+        "sugars_100g": 8.7,
+        "salt_100g": 0.86
+      }
+    },
+    {
+      "code": "20474478",
+      "brands": "Mcennedy",
+      "allergens_tags": [
+        "en:peanuts"
+      ],
+      "image_front_small_url": "https://images.openfoodfacts.org/images/products/000/002/047/4478/front_en.114.200.jpg",
+      "product_name_en": "Peanut Butter",
+      "ingredients_text_en": "85% roasted peanuts , sunflower oil, fully hardened palm fat, table salt,",
+      "nutriments": {
+        "energy-kcal_100g": 653,
+        "energy-kj_100g": 2703,
+        "energy_100g": 2703,
+        "proteins_100g": 23.1,
+        "carbohydrates_100g": 12,
+        "fat_100g": 55.6,
+        "fiber_100g": 5.9,
+        "sugars_100g": 5.1,
+        "salt_100g": 0.6
+      }
+    },
+    {
+      "code": "4056489424925",
+      "brands": "Maribel",
+      "allergens_tags": [
+        "en:peanuts"
+      ],
+      "image_front_small_url": "https://images.openfoodfacts.org/images/products/405/648/942/4925/front_en.90.200.jpg",
+      "product_name_en": "PEANUT BUTTER creamy",
+      "ingredients_text_en": "94% peanut kernels, palm oil, 1,2% peanut oil, cane sugar, table salt",
+      "nutriments": {
+        "energy-kcal_100g": 661,
+        "energy-kj_100g": 2742,
+        "energy_100g": 2742,
+        "proteins_100g": 29.2,
+        "carbohydrates_100g": 14.9,
+        "fat_100g": 53,
+        "fiber_100g": 3.9,
+        "sugars_100g": 7.2,
+        "salt_100g": 0.93
+      }
+    },
+    {
+      "code": "5900617012197",
+      "brands": "Sante, Sante sp. z o.o.",
+      "allergens_tags": [
+        "en:peanuts"
+      ],
+      "image_front_small_url": "https://images.openfoodfacts.org/images/products/590/061/701/2197/front_en.28.200.jpg",
+      "product_name_en": "Peanut butter smooth santé",
+      "ingredients_text_en": "Roasted peanuts 90%, sugar, sunflower oil, fully hydrogenated rapeseed oil, rapeseed oil, salt.",
+      "nutriments": {
+        "energy-kcal_100g": 616,
+        "energy-kj_100g": 2554,
+        "energy_100g": 2554,
+        "proteins_100g": 24,
+        "carbohydrates_100g": 14,
+        "fat_100g": 50,
+        "fiber_100g": 6.9,
+        "sugars_100g": 9,
+        "salt_100g": 0.73
+      }
+    },
+    {
+      "code": "5060088700099",
+      "brands": "nakd",
+      "allergens_tags": [
+        "en:peanuts"
+      ],
+      "image_front_small_url": "https://images.openfoodfacts.org/images/products/506/008/870/0099/front_fr.58.200.jpg",
+      "product_name_en": "Peanut Butter Protein Bars",
+      "ingredients_text_en": "Dates (39%), peanuts (30%), peanut butter (10%), peanut flour (10%), chicory fibre (10%), sea salt, natural flavouring.",
+      "nutriments": {
+        "energy-kcal_100g": 420,
+        "energy-kj_100g": 1755,
+        "energy_100g": 1755,
+        "proteins_100g": 17,
+        "carbohydrates_100g": 33,
+        "fat_100g": 21,
+        "fiber_100g": 16,
+        "sugars_100g": 28,
+        "salt_100g": 0.4
+      }
+    },
+    {
+      "code": "0068100084245",
+      "brands": "Kraft",
+      "allergens_tags": [
+        "en:peanuts",
+        "en:soybeans",
+        "en:Select roasted peanuts"
+      ],
+      "image_front_small_url": "https://images.openfoodfacts.org/images/products/006/810/008/4245/front_en.117.200.jpg",
+      "product_name_en": "Smooth Peanut Butter",
+      "ingredients_text_en": "_Select roasted peanuts_, Soybean oil, Sugars (corn maltodextrin, sugar), Hydrogenated vegetable oil (cottonseed and rapeseed oil), Salt, Mono - and diglycerides",
+      "nutriments": {
+        "energy-kcal_100g": 600,
+        "energy-kj_100g": 2706.66666666667,
+        "energy_100g": 2706.66666666667,
+        "proteins_100g": 20,
+        "carbohydrates_100g": 20,
+        "fat_100g": 53.3333333333333,
+        "fiber_100g": 6.66666666666667,
+        "sugars_100g": 6.66666666666667,
+        "salt_100g": 1.08333333333333
+      }
+    },
+    {
+      "code": "5600826202982",
+      "brands": "PROZIS.COM S.A. (ZONA FRANCA DA MADEIRA)",
+      "allergens_tags": [
+        "en:peanuts"
+      ],
+      "image_front_small_url": "https://images.openfoodfacts.org/images/products/560/082/620/2982/front_en.104.200.jpg",
+      "product_name_en": "Peanut butter",
+      "ingredients_text_en": "peanuts  (arachis hypogaea) (100%),",
+      "nutriments": {
+        "energy-kcal_100g": 629,
+        "energy-kj_100g": 2630,
+        "energy_100g": 2630,
+        "proteins_100g": 26,
+        "carbohydrates_100g": 13,
+        "fat_100g": 51,
+        "fiber_100g": 6.8,
+        "sugars_100g": 5.2,
+        "salt_100g": 0.05
+      }
+    },
+    {
+      "code": "5060088700082",
+      "brands": "nākd, Nakd",
+      "allergens_tags": [
+        "en:peanuts"
+      ],
+      "image_front_small_url": "https://images.openfoodfacts.org/images/products/506/008/870/0082/front_en.66.200.jpg",
+      "product_name_en": "Protein Peanut Butter Bar",
+      "ingredients_text_en": "Dates 39%, Peanuts 30%, Peanut butter 10%, Peanut flour 10%, Chicory fibre 10%, Sea salt, Natural flavouring.",
+      "nutriments": {
+        "energy-kcal_100g": 443,
+        "energy-kj_100g": 1851,
+        "energy_100g": 1851,
+        "proteins_100g": 17.4,
+        "carbohydrates_100g": 39.3,
+        "fat_100g": 21.9,
+        "fiber_100g": 9.6,
+        "sugars_100g": 26.8,
+        "salt_100g": 0.38
+      }
+    }
+  ]
+}
