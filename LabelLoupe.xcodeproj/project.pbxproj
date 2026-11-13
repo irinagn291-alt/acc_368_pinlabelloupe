@@ -14,16 +14,23 @@
 		361FA6882261CE66616836EA /* Dossier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3087B5E0241333D4359BF61C /* Dossier.swift */; };
 		3DBFC81CD359D03699AB9CF9 /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F8E3C69C31BCEF485A4E82 /* Journal.swift */; };
 		573E4B9B21154B080A7BB266 /* FieldworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CE62EECD60BDA476561459 /* FieldworkTests.swift */; };
+		57A185901EBFE389C00AEB3D /* AppEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178DB6458B5CA176D09FA413 /* AppEndpoints.swift */; };
 		5CC9B542F97F3FD022DB605C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D7B38ABB281EAE0B6839ECB /* Assets.xcassets */; };
 		6515C5EFFDC5F0A325886A7A /* FieldSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E631F2DD18ED1389D34870 /* FieldSnapshot.swift */; };
 		7074C4F03CA87E309A220102 /* FoodCatalogPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CA87C8C1865A4AC1F063EB /* FoodCatalogPicker.swift */; };
+		709BFA63A1BA41711B0C5464 /* BrowserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DA1931DAA83C0ACF4E5D91 /* BrowserSession.swift */; };
+		8C07EA860034B7021F02B740 /* BrowserJourney.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBA08790F0A11CDA8A06EE6 /* BrowserJourney.swift */; };
 		90BCB7D5065AF607CFB6AC64 /* OfflineProducts.json in Resources */ = {isa = PBXBuildFile; fileRef = FA3DA3DDC2A743C9682D948B /* OfflineProducts.json */; };
+		A973FF54485749CEE7DFA320 /* AppLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD92987C57C06B601E9827 /* AppLaunch.swift */; };
 		ACF57904856F7FE9A7449F91 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 85EC25EDD5C65F8A132A1655 /* PrivacyInfo.xcprivacy */; };
 		BBCA476CAECA94B6CB36E9F9 /* FieldSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E631F2DD18ED1389D34870 /* FieldSnapshot.swift */; };
 		BC08FF24CEBF0B50420B0535 /* FoodCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A5DAD6BD44D64996727292 /* FoodCatalog.swift */; };
 		C464406CA6D4C1AE41D4D4C8 /* Comparison.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14EFE5B4FE208E6567F7D27 /* Comparison.swift */; };
 		CB871B246E23E93A479583F4 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 85EC25EDD5C65F8A132A1655 /* PrivacyInfo.xcprivacy */; };
 		CE073E2AA10CB9968E0A27FE /* ArchiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD97C616B760CA4EA956106 /* ArchiveView.swift */; };
+		CE5D12207BDD13ACEEF20A93 /* AppLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB48753CAE51D82F5AB6F9B5 /* AppLaunchTests.swift */; };
+		E957C683F87B7BEA6BA7A967 /* RegistrationClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A51296011ACF345272E026A /* RegistrationClient.swift */; };
+		F58B953B16E1FE80EECB4F39 /* InAppBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5114D3CDB495F11ED55606 /* InAppBrowser.swift */; };
 		FB5049AEB317CA1F37256A44 /* FoodScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19C8760BB30C9AAE049F2A1 /* FoodScanner.swift */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +48,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = F8937DFC78656A36B29A2FF5;
 			remoteInfo = LabelLoupeWidget;
+		};
+		C676051FE07FF706B0EAB4AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21BA695CCF73982E85C81A0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E724F2BC65A8BF3AF399D211;
+			remoteInfo = LabelLoupe;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -60,6 +74,9 @@
 
 /* Begin PBXFileReference section */
 		01ACD2686A7AE0A8DB771C42 /* Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design.swift; sourceTree = "<group>"; };
+		0751895B923B6D20FAE7E35E /* LabelLoupeTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = LabelLoupeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		178DB6458B5CA176D09FA413 /* AppEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEndpoints.swift; sourceTree = "<group>"; };
+		1C5114D3CDB495F11ED55606 /* InAppBrowser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InAppBrowser.swift; sourceTree = "<group>"; };
 		22474F69D5F893990B6571C3 /* App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = App.entitlements; sourceTree = "<group>"; };
 		2BD97C616B760CA4EA956106 /* ArchiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveView.swift; sourceTree = "<group>"; };
 		3087B5E0241333D4359BF61C /* Dossier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dossier.swift; sourceTree = "<group>"; };
@@ -67,20 +84,25 @@
 		445C9C8074E4CEC3DE07E75D /* LabelLoupeUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = LabelLoupeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4813B15D0FEB7186956522E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		53E631F2DD18ED1389D34870 /* FieldSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSnapshot.swift; sourceTree = "<group>"; };
+		5A51296011ACF345272E026A /* RegistrationClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationClient.swift; sourceTree = "<group>"; };
 		7CFE55BEF2887ACC3EB21038 /* LabelLoupeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelLoupeApp.swift; sourceTree = "<group>"; };
 		7D7B38ABB281EAE0B6839ECB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DAE62ACD6D9405BF5FBF914 /* Widget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Widget.entitlements; sourceTree = "<group>"; };
 		85EC25EDD5C65F8A132A1655 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		8C310B5893300369F9666CDF /* LabelLoupeWidget.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = LabelLoupeWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CBA08790F0A11CDA8A06EE6 /* BrowserJourney.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserJourney.swift; sourceTree = "<group>"; };
 		A19A2B09E128C2547257AB70 /* FieldWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldWidget.swift; sourceTree = "<group>"; };
 		B14EFE5B4FE208E6567F7D27 /* Comparison.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comparison.swift; sourceTree = "<group>"; };
 		B3CE62EECD60BDA476561459 /* FieldworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldworkTests.swift; sourceTree = "<group>"; };
 		C5B6E0D61BA35D23E1B39E4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CEAD92987C57C06B601E9827 /* AppLaunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLaunch.swift; sourceTree = "<group>"; };
 		D19C8760BB30C9AAE049F2A1 /* FoodScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodScanner.swift; sourceTree = "<group>"; };
 		D5F8E3C69C31BCEF485A4E82 /* Journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
 		DDD89079A89FD9AF7B80FCC5 /* LabelLoupe.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = LabelLoupe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3A5DAD6BD44D64996727292 /* FoodCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCatalog.swift; sourceTree = "<group>"; };
+		E6DA1931DAA83C0ACF4E5D91 /* BrowserSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserSession.swift; sourceTree = "<group>"; };
 		FA3DA3DDC2A743C9682D948B /* OfflineProducts.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = OfflineProducts.json; sourceTree = "<group>"; };
+		FB48753CAE51D82F5AB6F9B5 /* AppLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -92,6 +114,7 @@
 				E8E67CDD7BD7BFD18B1A61E5 /* LabelLoupeWidget */,
 				A033CF07FDCA505C5FBCBCD6 /* Shared */,
 				B671F63955EA7F92213D05FC /* SharedCatalog */,
+				AEDC729F87356B4E8D7C34F9 /* Tests */,
 				D6EE7BD8CEF7FF52CFD6B547 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,6 +122,7 @@
 		863E9841CA1A9BCC7A8DBF9D /* LabelLoupeUITests */ = {
 			isa = PBXGroup;
 			children = (
+				9CBA08790F0A11CDA8A06EE6 /* BrowserJourney.swift */,
 				B3CE62EECD60BDA476561459 /* FieldworkTests.swift */,
 			);
 			path = LabelLoupeUITests;
@@ -111,6 +135,14 @@
 				85EC25EDD5C65F8A132A1655 /* PrivacyInfo.xcprivacy */,
 			);
 			path = Shared;
+			sourceTree = "<group>";
+		};
+		AEDC729F87356B4E8D7C34F9 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FB48753CAE51D82F5AB6F9B5 /* AppLaunchTests.swift */,
+			);
+			path = Tests;
 			sourceTree = "<group>";
 		};
 		B671F63955EA7F92213D05FC /* SharedCatalog */ = {
@@ -128,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				DDD89079A89FD9AF7B80FCC5 /* LabelLoupe.app */,
+				0751895B923B6D20FAE7E35E /* LabelLoupeTests.xctest */,
 				445C9C8074E4CEC3DE07E75D /* LabelLoupeUITests.xctest */,
 				8C310B5893300369F9666CDF /* LabelLoupeWidget.appex */,
 			);
@@ -138,14 +171,19 @@
 			isa = PBXGroup;
 			children = (
 				22474F69D5F893990B6571C3 /* App.entitlements */,
+				178DB6458B5CA176D09FA413 /* AppEndpoints.swift */,
+				CEAD92987C57C06B601E9827 /* AppLaunch.swift */,
 				2BD97C616B760CA4EA956106 /* ArchiveView.swift */,
 				7D7B38ABB281EAE0B6839ECB /* Assets.xcassets */,
+				E6DA1931DAA83C0ACF4E5D91 /* BrowserSession.swift */,
 				B14EFE5B4FE208E6567F7D27 /* Comparison.swift */,
 				01ACD2686A7AE0A8DB771C42 /* Design.swift */,
 				3087B5E0241333D4359BF61C /* Dossier.swift */,
+				1C5114D3CDB495F11ED55606 /* InAppBrowser.swift */,
 				C5B6E0D61BA35D23E1B39E4E /* Info.plist */,
 				D5F8E3C69C31BCEF485A4E82 /* Journal.swift */,
 				7CFE55BEF2887ACC3EB21038 /* LabelLoupeApp.swift */,
+				5A51296011ACF345272E026A /* RegistrationClient.swift */,
 			);
 			path = LabelLoupe;
 			sourceTree = "<group>";
@@ -163,6 +201,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		01EB2B5D6BCD1DC5F3E350C6 /* LabelLoupeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7167BEEB1F4EA27EE735D75B /* Build configuration list for PBXNativeTarget "LabelLoupeTests" */;
+			buildPhases = (
+				BC03B465C7C660D44D4B36BC /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5D87D514054D6101FBA2EE4 /* PBXTargetDependency */,
+			);
+			name = LabelLoupeTests;
+			packageProductDependencies = (
+			);
+			productName = LabelLoupeTests;
+			productReference = 0751895B923B6D20FAE7E35E /* LabelLoupeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		2AA85FD6DD10C6C81B58EE8A /* LabelLoupeUITests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A422A4C135B50D146A1D0CCA /* Build configuration list for PBXNativeTarget "LabelLoupeUITests" */;
@@ -228,6 +284,9 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
+					01EB2B5D6BCD1DC5F3E350C6 = {
+						ProvisioningStyle = Automatic;
+					};
 					2AA85FD6DD10C6C81B58EE8A = {
 						ProvisioningStyle = Automatic;
 						TestTargetID = E724F2BC65A8BF3AF399D211;
@@ -257,6 +316,7 @@
 				E724F2BC65A8BF3AF399D211 /* LabelLoupe */,
 				F8937DFC78656A36B29A2FF5 /* LabelLoupeWidget */,
 				2AA85FD6DD10C6C81B58EE8A /* LabelLoupeUITests */,
+				01EB2B5D6BCD1DC5F3E350C6 /* LabelLoupeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -287,7 +347,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C07EA860034B7021F02B740 /* BrowserJourney.swift in Sources */,
 				573E4B9B21154B080A7BB266 /* FieldworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC03B465C7C660D44D4B36BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5D12207BDD13ACEEF20A93 /* AppLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +364,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57A185901EBFE389C00AEB3D /* AppEndpoints.swift in Sources */,
+				A973FF54485749CEE7DFA320 /* AppLaunch.swift in Sources */,
 				CE073E2AA10CB9968E0A27FE /* ArchiveView.swift in Sources */,
+				709BFA63A1BA41711B0C5464 /* BrowserSession.swift in Sources */,
 				C464406CA6D4C1AE41D4D4C8 /* Comparison.swift in Sources */,
 				175746C72D212E65D51B1670 /* Design.swift in Sources */,
 				361FA6882261CE66616836EA /* Dossier.swift in Sources */,
@@ -303,8 +375,10 @@
 				BC08FF24CEBF0B50420B0535 /* FoodCatalog.swift in Sources */,
 				7074C4F03CA87E309A220102 /* FoodCatalogPicker.swift in Sources */,
 				FB5049AEB317CA1F37256A44 /* FoodScanner.swift in Sources */,
+				F58B953B16E1FE80EECB4F39 /* InAppBrowser.swift in Sources */,
 				3DBFC81CD359D03699AB9CF9 /* Journal.swift in Sources */,
 				0FD5B87D0F0013A10E19B377 /* LabelLoupeApp.swift in Sources */,
+				E957C683F87B7BEA6BA7A967 /* RegistrationClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +394,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		A5D87D514054D6101FBA2EE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E724F2BC65A8BF3AF399D211 /* LabelLoupe */;
+			targetProxy = C676051FE07FF706B0EAB4AF /* PBXContainerItemProxy */;
+		};
 		D07608EC4F443C3C613FBB45 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E724F2BC65A8BF3AF399D211 /* LabelLoupe */;
@@ -333,6 +412,40 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		2FE004CB65F68BA9D67F8620 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.labelloupe.journal.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LabelLoupe.app/LabelLoupe";
+			};
+			name = Debug;
+		};
+		3F0A09C6F42D4A03F815752B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.labelloupe.journal.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LabelLoupe.app/LabelLoupe";
+			};
+			name = Release;
+		};
 		57715B44B05A257B53BF62E2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -368,7 +481,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -381,7 +494,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -479,7 +592,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -498,7 +611,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -515,6 +628,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -532,6 +646,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -565,6 +680,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		7167BEEB1F4EA27EE735D75B /* Build configuration list for PBXNativeTarget "LabelLoupeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FE004CB65F68BA9D67F8620 /* Debug */,
+				3F0A09C6F42D4A03F815752B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
 		9B174F25D49296C495FF386A /* Build configuration list for PBXNativeTarget "LabelLoupeWidget" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

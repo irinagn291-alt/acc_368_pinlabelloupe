@@ -1,7 +1,7 @@
-The app opens to the Desk without onboarding or sign-in. The interface and number and date formatting are in English. A fresh installation has an empty journal and a bundled catalogue of 15 products.
+The app opens to the Desk without onboarding or sign-in. The interface and number and date formatting are in English. A fresh installation has an empty journal and a bundled catalog of 15 products.
 
-To review, open the food catalogue from the Desk and select a product. In its dossier, save it, log a choice or add it to Compare. Add a different product to the other comparison slot. Open Archive to view the collection and dated choices; individual choice entries can be deleted. Manual entry is available in the catalogue and requires a product name.
+To review, open the food catalog from the Desk and select a product. In its dossier, save it, log a choice or add it to Compare. Add a different product to the other comparison slot. Open Archive to view the collection and dated choices; individual choice entries can be deleted. Manual entry is available in the catalog and requires a product name.
 
-Opening the scanner on a supported device requests camera permission. If scanning is unavailable, enter barcode digits in the catalogue search field. Online searches and barcode lookups use Open Food Facts; product images may also load over the network. Catalogue dossiers link to Open Food Facts.
+Opening the scanner on a supported device requests camera permission. If scanning is unavailable, enter barcode digits in the catalog search field. Online searches and barcode lookups use Open Food Facts; product images may also load over the network. Catalog dossiers link to Open Food Facts.
 
-The Home Screen widget displays the latest choice and counts. Journal data is stored on the device; a summary is shared with the widget. No account, purchase, advertising or analytics flow is implemented.
+The Home Screen widget displays the latest choice and counts. The watch companion shows a synced collection and can send or queue a choice for the iPhone. Journal data is stored on the device; a summary is shared with the widget and watch. No account, purchase, advertising or analytics flow is implemented.

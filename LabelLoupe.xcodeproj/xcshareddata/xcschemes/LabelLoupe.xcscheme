@@ -44,6 +44,17 @@
             parallelizable = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "01EB2B5D6BCD1DC5F3E350C6"
+               BuildableName = "LabelLoupeTests.xctest"
+               BlueprintName = "LabelLoupeTests"
+               ReferencedContainer = "container:LabelLoupe.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "2AA85FD6DD10C6C81B58EE8A"
                BuildableName = "LabelLoupeUITests.xctest"
                BlueprintName = "LabelLoupeUITests"

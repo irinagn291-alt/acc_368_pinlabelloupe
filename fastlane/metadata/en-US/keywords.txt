@@ -1,1 +1,1 @@
-ingredients,allergens,nutrients,barcode,catalog,collection,comparison,food
+food,label,nutrition,ingredients,allergens,barcode,compare,journal,archive

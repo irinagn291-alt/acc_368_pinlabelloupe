@@ -1,11 +1,9 @@
-PinlabelLoupe is a food-label reference for people who want to inspect ingredients and allergens, compare nutrients per 100 g, and keep a personal record of products and choices.
+PinlabelLoupe brings food-label information and your personal choices together in one place.
 
-• Search Open Food Facts by name, brand, or barcode, or browse products on this device.
-• Scan a barcode or enter a label by hand.
-• Inspect a Dossier for ingredients, allergens, and nutrients per 100 g.
-• Save a label to your Collection and filter it by name or brand.
-• Compare two labels side by side, including B − A.
-• Log a choice and maintain Choice history.
-• See your latest choice and collection counts in the PinlabelLoupe archive widget.
+Find products in the bundled catalog, search Open Food Facts online by name or barcode, scan a barcode, or enter a product manually. Open a dossier to see available ingredients, allergens and nutrition values per 100 g. Missing information is marked as unlisted or shown with a dash.
 
-Check the package for current ingredients and allergen warnings.
+Save labels to your collection, log dated choices and compare two distinct products side by side. The comparison shows seven nutrient values and the difference between them. Your Desk keeps recent dossiers close at hand, while the Archive holds your collection and choice history.
+
+On Apple Watch, browse your synced collection and send a choice to your iPhone. The Home Screen widget shows your latest choice and journal counts.
+
+Always check the package for current ingredients and allergen warnings. Catalog data comes from Open Food Facts contributors.

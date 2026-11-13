@@ -7,8 +7,8 @@ options:
 settings:
   base:
     SWIFT_VERSION: '5.0'
-    MARKETING_VERSION: '1.0'
-    CURRENT_PROJECT_VERSION: 2
+    MARKETING_VERSION: '1.1'
+    CURRENT_PROJECT_VERSION: 3
     CODE_SIGN_STYLE: Automatic
 targets:
   LabelLoupe:
@@ -90,6 +90,18 @@ targets:
         PRODUCT_BUNDLE_IDENTIFIER: app.labelloupe.journal.uitests
         GENERATE_INFOPLIST_FILE: 'YES'
         TEST_TARGET_NAME: LabelLoupe
+        INFOPLIST_KEY_ITSAppUsesNonExemptEncryption: 'NO'
+  LabelLoupeTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+    - Tests
+    dependencies:
+    - target: LabelLoupe
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: 'YES'
+        PRODUCT_BUNDLE_IDENTIFIER: app.labelloupe.journal.tests
 schemes:
   LabelLoupe:
     build:
@@ -97,4 +109,5 @@ schemes:
         LabelLoupe: all
     test:
       targets:
+      - LabelLoupeTests
       - LabelLoupeUITests

@@ -4,7 +4,8 @@ final class FieldworkTests: XCTestCase {
     func testInspectSaveLogAndCompare() throws {
         continueAfterFailure = false
         let app = XCUIApplication()
-        app.launchArguments = ["-AppleLanguages", "(en)", "-AppleLocale", "en_US"]
+        app.launchArguments += ["-registration_attempted", "YES", "-cached_content_url", ""]
+        app.launchArguments += ["-AppleLanguages", "(en)", "-AppleLocale", "en_US"]
         app.launch()
         app.buttons["desk.find"].tap()
         let search = app.textFields.firstMatch
